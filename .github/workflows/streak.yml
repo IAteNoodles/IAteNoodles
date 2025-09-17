@@ -15,7 +15,7 @@ jobs:
       # IMPORTANT: The owner name 'DenverCoder1' is CASE-SENSITIVE.
       - name: Get Streak Stats
         id: streak-stats
-        uses: DenverCoder1/github-readme-streak-stats@v1.2.1
+        uses: DenverCoder1/github-readme-streak-stats@v1.5
         with:
           user: IAteNoodles
           theme: radical
