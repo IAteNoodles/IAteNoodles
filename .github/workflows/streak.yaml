@@ -10,17 +10,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Check out your repository
       - uses: actions/checkout@v3
-      - uses: DenverCoder1/github-readme-streak-stats@main
+
+      # Step 2: Run the streak stats action to generate the SVG data
+      - name: Get Streak Stats
         id: streak-stats
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
           user: IAteNoodles
           theme: radical
           hide_border: true
-          # The output file name
-          outputs: ./streak.svg
+          
+      # Step 3: Write the generated SVG data to a file named streak.svg
+      - name: Write streak.svg to file
+        run: echo "${{ steps.streak-stats.outputs.svg }}" > streak.svg
 
-      - name: Commit changes
+      # Step 4: Commit and push the updated streak.svg file
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
