@@ -3,20 +3,14 @@
 **Backend Developer | AI/ML Researcher | Linux Enthusiast**
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+  <a href="https://www.linkedin.com/in/iatenoodles" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://your-blog-url.com/" target="_blank">
-    <img alt="Blog" src="https://img.shields.io/badge/Blog-000000?style=for-the-badge&logo=medium&logoColor=white" />
-  </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:thisabhijithere@gmail.com">
     <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/IAteNoodles?tab=followers">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/IAteNoodles?style=for-the-badge&logo=github&label=Followers">
-  </a>
-  <a href="https://komarev.com/ghpvc/?username=IAteNoodles">
-    <img src="https://komarev.com/ghpvc/?username=IAteNoodles&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
   </a>
 </p>
 
