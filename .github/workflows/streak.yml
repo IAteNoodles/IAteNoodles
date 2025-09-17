@@ -12,10 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # This now uses the stable version tag @v4, which will fix the error
+      # This now points to the correct, stable version tag @v1.2.1
       - name: Get Streak Stats
         id: streak-stats
-        uses: DenverCoder1/github-readme-streak-stats@v4
+        uses: DenverCoder1/github-readme-streak-stats@v1.2.1
         with:
           user: IAteNoodles
           theme: radical
