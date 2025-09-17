@@ -1,0 +1,29 @@
+name: GitHub Streak Stats
+
+on:
+  schedule:
+    # Runs every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: DenverCoder1/github-readme-streak-stats@main
+        id: streak-stats
+        with:
+          user: IAteNoodles
+          theme: radical
+          hide_border: true
+          # The output file name
+          outputs: ./streak.svg
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add streak.svg
+          git commit -m "chore: update streak stats" || exit 0
+          git push
