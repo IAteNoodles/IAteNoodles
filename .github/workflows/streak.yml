@@ -10,23 +10,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Check out your repository
       - uses: actions/checkout@v3
 
-      # Step 2: Run the streak stats action to generate the SVG data
+      # This now uses the stable version tag @v4, which will fix the error
       - name: Get Streak Stats
         id: streak-stats
-        uses: DenverCoder1/github-readme-streak-stats@main
+        uses: DenverCoder1/github-readme-streak-stats@v4
         with:
           user: IAteNoodles
           theme: radical
           hide_border: true
           
-      # Step 3: Write the generated SVG data to a file named streak.svg
       - name: Write streak.svg to file
         run: echo "${{ steps.streak-stats.outputs.svg }}" > streak.svg
 
-      # Step 4: Commit and push the updated streak.svg file
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
