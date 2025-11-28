@@ -31,15 +31,13 @@ Spaces I hang out:
 ---
 
 ## Vibes & Visuals
+<div align="center">
 
-<p align="center">
-  <img src="https://github-stats-brown-nu.vercel.app/api?username=IAteNoodles&show_icons=true&theme=radical&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-streak-stats-delta-gray.vercel.app/?user=IAteNoodles&theme=radical&hide_border=true" height="150" />
-</p>
-<p align="center">
-  <img src="https://github-stats-brown-nu.vercel.app/api/top-langs/?username=IAteNoodles&theme=radical&hide_border=true&layout=compact" height="150"/>
-</p>
+![](https://github-readme-stats.vercel.app/api?username=iatenoodles&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=iatenoodles&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=iatenoodles&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
+</div>
 ---
 
 ## Code in Motion
