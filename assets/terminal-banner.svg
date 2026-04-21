@@ -22,6 +22,9 @@
 
   <rect width="1200" height="320" fill="url(#bg)" rx="20"/>
   <rect x="20" y="20" width="1160" height="280" fill="#090d1a" stroke="#2a3358" stroke-width="2" rx="14"/>
+  <rect x="20" y="20" width="1160" height="280" fill="none" rx="14" stroke="url(#glow)" opacity="0.15">
+    <animate attributeName="opacity" values="0.1;0.25;0.1" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
   <circle cx="52" cy="44" r="6" fill="#ff5f56"/>
   <circle cx="74" cy="44" r="6" fill="#ffbd2e"/>
@@ -37,6 +40,8 @@
   <text x="52" y="204" class="cmd" fill="#9fb6ff">$ mode --set hacky flashy geeky</text>
   <text x="52" y="232" class="cmd" fill="#8be9fd">$ shell --prefer fish</text>
   <text x="52" y="260" class="cmd" fill="#b892ff">$ build --status shipping</text>
+  <text id="cursor" x="474" y="260" class="cmd" fill="#58A6FF">_</text>
+  <animate href="#cursor" attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
 
   <g transform="translate(760 86)">
     <rect x="0" y="0" width="360" height="180" rx="12" fill="#0e1326" stroke="#2d3560"/>
@@ -44,6 +49,6 @@
     <text x="20" y="64" class="cmd" fill="#c3d7ff">python  fastapi  docker</text>
     <text x="20" y="92" class="cmd" fill="#c3d7ff">transformers  mamba/ssm</text>
     <text x="20" y="120" class="cmd" fill="#c3d7ff">linux  fish  neo4j</text>
-    <text x="20" y="154" class="cmd" fill="#8b95c9">status: online</text>
+    <text x="20" y="154" class="cmd" fill="#8b95c9">status: alive</text>
   </g>
 </svg>

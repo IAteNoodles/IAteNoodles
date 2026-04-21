@@ -53,11 +53,7 @@ I prefer expressive systems over sterile templates, terminal aesthetics over pol
 ## Runtime Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IAteNoodles&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="GitHub stats"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=IAteNoodles&theme=radical&hide_border=true&hide_title=true&line=8F44FD&point=FFFFFF&area=true&area_color=8F44FD" alt="Contribution graph"/>
+  <img src="./assets/live-pulse.svg" alt="Runtime pulse"/>
 </p>
 
 <p align="center">

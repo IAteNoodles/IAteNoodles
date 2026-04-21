@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="IAteNoodles runtime pulse">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0d1a"/>
+      <stop offset="50%" stop-color="#11162b"/>
+      <stop offset="100%" stop-color="#1a2140"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8F44FD"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: "Fira Code", "JetBrains Mono", Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="220" rx="18" fill="url(#bg)"/>
+  <rect x="14" y="14" width="1172" height="192" rx="12" fill="#0d1122" stroke="#2a3358"/>
+
+  <g opacity="0.18" stroke="#6d7ab5" stroke-width="1">
+    <path d="M20 46 H1180"/>
+    <path d="M20 82 H1180"/>
+    <path d="M20 118 H1180"/>
+    <path d="M20 154 H1180"/>
+    <path d="M20 190 H1180"/>
+  </g>
+
+  <text x="34" y="38" class="mono" font-size="14" fill="#8b95c9">runtime://commit-pulse</text>
+  <text x="34" y="66" class="mono" font-size="12" fill="#58A6FF">status: alive  mode: shipping  shell: fish</text>
+
+  <path d="M36 150 L120 150 L155 120 L190 168 L250 96 L305 168 L360 114 L420 150 L492 84 L560 150 L628 106 L690 156 L760 96 L830 150 L902 118 L970 164 L1044 108 L1118 150"
+        fill="none" stroke="url(#violet)" stroke-width="3" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="0,2400;2400,0" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="1118" cy="150" r="5" fill="#8F44FD" filter="url(#glow)">
+    <animate attributeName="r" values="5;8;5" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="34" y="188" class="mono" font-size="12" fill="#b8c4ff">build-real-things -> add-unnecessary-complexity-for-fun</text>
+</svg>
