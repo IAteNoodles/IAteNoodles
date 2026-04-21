@@ -6,38 +6,27 @@
 
 <p align="center">
   <a href="https://github.com/IAteNoodles"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-IAteNoodles-0d1117?style=for-the-badge&logo=github"/></a>
-  <img alt="Mode" src="https://img.shields.io/badge/Mode-Hacky%20%7C%20Flashy%20%7C%20Geeky-58A6FF?style=for-the-badge"/>
+  <img alt="Mode" src="https://img.shields.io/badge/mode-hacky.flashy.geeky-58A6FF?style=for-the-badge"/>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/FISH-%3E%20Bash-1abc9c?style=flat-square&logo=gnu-bash&logoColor=white" alt="FISH over Bash"/>
   <img src="https://img.shields.io/badge/Linux-riced%20daily-1793D1?style=flat-square&logo=linux&logoColor=white" alt="Linux native"/>
   <img src="https://img.shields.io/badge/Local--first-LLMs-7a3cff?style=flat-square" alt="Local-first LLMs"/>
-  <img src="https://img.shields.io/github/commit-activity/m/IAteNoodles/IAteNoodles?style=flat-square&label=commits%2Fmonth" alt="Commit activity"/>
+  <img src="https://img.shields.io/badge/tone-technical%20%2B%20dry%20humor-111827?style=flat-square" alt="Tone"/>
 </p>
 
 ```bash
-$ philosophy
-break -> rebuild -> overengineer -> ship
+role:: ai/ml-researcher | linux-tinkerer | overengineer
+motto:: i-code-therefore-i-must-code
+shell:: fish > bash
+focus:: local-llm | transformers | mamba/ssm | context-window-reduction
+style:: build-real-things -> add-unnecessary-complexity-for-fun
 ```
 
-## Focus
+`projects::` [pharmaguard](https://github.com/IAteNoodles/Rift2k26) · [live](https://pharmaguard-tbo.netlify.app/) | [redshield](https://github.com/IAteNoodles/inceptrix2026) | [medgraph](https://github.com/IAteNoodles/MedGraph)
 
-- Local-first LLMs, offline inference, practical fine-tuning.
-- Transformers + Mamba/SSMs for context-window reduction.
-- Real systems, not benchmark theater.
-
-## Signature Projects
-
-| Project | Payload | Links |
-|---|---|---|
-| PharmaGuard | Pharmacogenomic prescribing assistant | [Repo](https://github.com/IAteNoodles/Rift2k26) · [Live](https://pharmaguard-tbo.netlify.app/) |
-| RedShield | Docker + MCP pentesting lab | [Repo](https://github.com/IAteNoodles/inceptrix2026) |
-| MedGraph | Medical knowledge graph engine | [Repo](https://github.com/IAteNoodles/MedGraph) |
-
-## Stack Snapshot
-
-`Python` `FastAPI` `Transformers` `Mamba/SSM` `Docker` `Linux` `FISH` `Neo4j` `Groq`
+`stack::` `python` `fastapi` `transformers` `mamba/ssm` `docker` `linux` `fish` `neo4j` `groq`
 
 ## Runtime Stats
 
@@ -47,13 +36,5 @@ break -> rebuild -> overengineer -> ship
 </p>
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=IAteNoodles&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=IAteNoodles&theme=tokyo-night&hide_border=true&hide_title=true" alt="Contribution graph"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IAteNoodles&theme=tokyonight" alt="Profile details card"/>
 </p>
