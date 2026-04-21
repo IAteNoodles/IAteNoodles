@@ -53,7 +53,7 @@ I prefer expressive systems over sterile templates, terminal aesthetics over pol
 ## Runtime Stats
 
 <p align="center">
-  <img src="./assets/live-pulse.svg" alt="Runtime pulse"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=IAteNoodles&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="GitHub stats"/>
 </p>
 
 <p align="center">
