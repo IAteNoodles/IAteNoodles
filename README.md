@@ -28,21 +28,38 @@ focus:: local-llm | transformers | mamba/ssm | context-window-reduction
 style:: build-real-things -> add-unnecessary-complexity-for-fun
 ```
 
-`projects::` [pharmaguard](https://github.com/IAteNoodles/Rift2k26) · [live](https://pharmaguard-tbo.netlify.app/) | [redshield](https://github.com/IAteNoodles/inceptrix2026) | [medgraph](https://github.com/IAteNoodles/MedGraph)
+## Signal
+
+I treat code like a lab notebook with side quests: break assumptions, map internals, rewire architecture, then ship the weird thing that should not work but somehow does.  
+I prefer expressive systems over sterile templates, terminal aesthetics over polished corporate blur, and practical experiments over benchmark theater.
+
+## Active Protocols
+
+- local-first LLM workflows, offline-first when possible
+- transformer behavior study + attention mechanics
+- mamba/ssm experiments for leaner context without coherence collapse
+- backend-heavy implementations that survive real users
+
+## Mission Board
+
+`pharmaguard::` pharmacogenomic prescribing assistant · [repo](https://github.com/IAteNoodles/Rift2k26) · [live](https://pharmaguard-tbo.netlify.app/)
+
+`redshield::` docker+mcp pentesting environment · [repo](https://github.com/IAteNoodles/inceptrix2026)
+
+`medgraph::` medical knowledge graph engine · [repo](https://github.com/IAteNoodles/MedGraph)
 
 `stack::` `python` `fastapi` `transformers` `mamba/ssm` `docker` `linux` `fish` `neo4j` `groq`
 
 ## Runtime Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IAteNoodles&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IAteNoodles&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=IAteNoodles&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=IAteNoodles&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="GitHub stats"/>
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=IAteNoodles&theme=radical&hide_border=true&hide_title=true&line=8F44FD&point=FFFFFF&area=true&area_color=8F44FD" alt="Contribution graph"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IAteNoodles&theme=tokyonight" alt="Profile details card"/>
 </p>
