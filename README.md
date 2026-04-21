@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=15&duration=1800&pause=600&color=8F44FD&center=true&vCenter=true&width=900&lines=%24+init+--vibe+hacky;%24+shell+--prefer+fish;%24+goal+--ship+weird+and+working;%24+motto+--i+code+therefore+i+must+code" alt="typing banner"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/FISH-%3E%20Bash-1abc9c?style=flat-square&logo=gnu-bash&logoColor=white" alt="FISH over Bash"/>
   <img src="https://img.shields.io/badge/Linux-riced%20daily-1793D1?style=flat-square&logo=linux&logoColor=white" alt="Linux native"/>
   <img src="https://img.shields.io/badge/Local--first-LLMs-7a3cff?style=flat-square" alt="Local-first LLMs"/>
@@ -36,5 +40,9 @@ style:: build-real-things -> add-unnecessary-complexity-for-fun
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=IAteNoodles&theme=tokyo-night&hide_border=true&hide_title=true" alt="Contribution graph"/>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=IAteNoodles&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=IAteNoodles&theme=radical&hide_border=true&hide_title=true&line=8F44FD&point=FFFFFF&area=true&area_color=8F44FD" alt="Contribution graph"/>
 </p>
