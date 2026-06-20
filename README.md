@@ -2,12 +2,12 @@
   <img src="./assets/terminal-banner.svg" alt="Iatenoodles terminal banner"/>
 </p>
 
-<h1 align="center">Iatenoodles</h1>
+<h1 align="center">IAteNoodles</h1>
 
-<h3 align="center">Backend-heavy AI systems · Healthcare tools · Production software</h3>
+<h3 align="center">I do whatever swings my boat, including backend, ai development, and research</h3>
 
 <p align="center">
-  CS + Data Science student working across APIs, retrieval pipelines, deployment, and data-heavy workflows.
+  A Computer Scince student was tinkering here...
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 <br/>
 
-<p align="center"><sub>stack</sub></p>
+<p align="center"><sub>Tools I use</sub></p>
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -36,8 +36,6 @@
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
   <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
   <img alt="Neo4j" src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white"/>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111111"/>
 </p>
 
 <br/>
