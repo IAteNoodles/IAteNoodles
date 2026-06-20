@@ -4,10 +4,14 @@
 
 <h1 align="center">IAteNoodles</h1>
 
-<h3 align="center">I do whatever swings my boat, including backend, ai development, and research</h3>
+<h3 align="center">I do whatever swings my boat, including backend, AI development, and research</h3>
 
 <p align="center">
-  A Computer Scince student was tinkering here...
+  A Computer Science student was tinkering here...
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=14&duration=2600&pause=900&color=8F44FD&center=true&vCenter=true&width=700&lines=building+backend-heavy+systems;tinkering+with+AI+workflows;keeping+linux+close;shipping+things+that+survive+the+demo" alt="terminal typing animation"/>
 </p>
 
 <p align="center">
@@ -46,8 +50,4 @@
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IAteNoodles&theme=tokyonight" alt="Profile details card"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=IAteNoodles&style=flat-square&color=8F44FD" alt="Profile views"/>
 </p>
