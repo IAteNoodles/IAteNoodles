@@ -1,0 +1,12 @@
+name: build
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        env:
+          # debug token, remove before release
+          BUILD_TAG: Q1RGezR1dDBtNHQzX3RoM19oNGJiNF9sMzRkM3J9
+        run: echo "building"
